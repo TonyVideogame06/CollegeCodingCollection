@@ -1,4 +1,4 @@
-# UP University Projects Repository
+# Panamerican University Projects Repository
 
 Welcome to my personal repository where I've curated all the projects developed during my Bachelor's degree in Information Technology and Intelligent Systems at Universidad Panamericana. This repository serves as a comprehensive showcase of my academic journey, reflecting my growth, learning, and the application of theoretical concepts in practical scenarios.
 
