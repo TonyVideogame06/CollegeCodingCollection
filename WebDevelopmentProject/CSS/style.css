@@ -1,0 +1,75 @@
+.body{background-color: greenyellow;}
+.bold{font-weight:bold; text-align: center}
+.font{font-family: Arial; text-align: justify}
+ul{list-style-type:square;}
+h1,h2{text-align: center; font-family: Verdana;}
+.imgcenter {display: block; margin-left: auto; margin-right: auto; width:12%}
+.center {margin: auto; width: 50%; padding: 10px;}
+a{text-decoration: none;}
+#face{color:blue;}
+/*img:hover {opacity: 0.5; filter: alpha(opacity=50);}*/
+.logo {float:left}
+.row{color: black; font-size: 20px;}
+.red{background-color: orangered; border-style: solid;}
+.white{background-color: white; border-style: solid;}
+.gridcenter{text-align: center}
+.bar{width: 60%}
+.left{float:left; margin-left: inherit}
+.right{float:right; margin-right: inherit}
+.centerp {text-align: center}
+#menu {background-image: url(https://static.iris.net.co/semana/upload/images/2019/4/23/610515_1.jpg); background-size: cover; opacity: 0.8;}
+.fontm{font-family: Verdana; text-align: justify; color: whitesmoke; font-weight: bold}
+.imgcenterm {display: block; margin-left: auto; margin-right: auto; width:25%}
+.map {margin-left: 650px;}
+footer{background-color: black}
+.cw{color:white;}
+.selectpro {background: red; color: white; opacity: 0.8;}
+.galeria{width: 90%; margin: auto; list-style: none; padding: 20px; box-sizing: border-box; display: flex; flex-wrap: wrap; justify-content: space-around;}
+.galeria li{margin: 5px;}
+.galeria img{width: 150px; height: 100px;}
+.modal{display: none}
+.modal:target{display: block; position: fixed; background: rgba(0,0,0,0.8); top: 0; left: 0; width: 100%; height: 100%;}
+.modal h3{color: white; font-size: 30px; text-align: center; margin: 15px 0;}
+.imagen{width: 100%; height: 50%; display: flex; justify-content: center; align-items: center;}
+.imagen a{color: white; font-size: 40px; text-decoration: none; margin: 0 10px;}
+.imagen a:nth-child(2){margin: 0; height: 100%; flex-shrink: 2;}
+.imagen img{height: 170%; max-width: 100%; border: 7px solid white; box-sizing: border-box;}
+.cerrar{display: block; background: white; width: 35px; height: 35px; margin: 355px auto; text-align: center; text-decoration: none; font-size: 25px; color: #000; padding: 5px; border-radius: 50%; line-height: 25px;}
+header {width:100%;}
+header nav {width:auto; height: auto; margin:auto; background:darkred;}
+.menu_bar {display:none;}
+header nav ul {overflow:hidden; list-style:none;}
+header nav ul li {float:left;}
+header nav ul li a {color:#fff; padding:20px; display:block; text-decoration:none;}
+header nav ul li span {margin-right:10px;}
+header nav ul li a:hover {background:#E6344A;}
+@media screen and (max-width:800px ) {
+    
+    .name{display: none;}
+    header nav {width:80%; height:100%; left:-100%; margin:0; position: fixed;}
+	header nav ul li {display:block; float:none; border-bottom:1px solid rgba(255,255,255, .3);}
+	.menu_bar {display:block; width:100%; background:#ccc;}
+	.menu_bar .bt-menu { display:block;padding:20px; background:darkred; color:#fff; text-decoration:none; font-weight: bold; font-size:25px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+	.menu_bar span {float:right; font-size:40px;}
+}
+/* header{width: 100%; height: 60px; background-color: darkred; display: flex; justify-content: flex-end}
+header nav{margin: auto; background: darkred;}
+header ul li a{display: block; padding:20px; color: white; text-decoration: none}
+header ul{display: flex; list-style: none;}
+.menu_bar{display: none}
+header nav ul {overflow: inherit; list-style: none; float: right}
+header nav ul li {float: right}
+header nav ul li a{display: block; padding:20px; color: white; text-decoration: none}
+header nav ul li a:hover{background: darkred; }
+#header{color: white;}
+@media screen and (max-width:800px)
+{
+    .name{display: none;}
+    header nav{width: 80%; height: 100%; margin: 0; position: fixed}
+    header nav ul li{display: block; float: none; border-bottom:1px solid rgba(255,255,255,.3); }
+    .menu_bar{display: block; width: 100%; background: #ccc;}
+    .menu_bar .bt-menu{display: block; padding: 20px; background: #025959; color: white; text-decoration: none; text-decoration: none; font-weight: bold; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+    .menu_bar i {float:right; font-size: 40px; }
+} */
+
+

@@ -1,0 +1,47 @@
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csprojAssemblyReference.cache
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Login.resources
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.MenuPedido.resources
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Ganancias.resources
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.MostrarPedidos.resources
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Properties.Resources.resources
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csproj.GenerateResource.cache
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\bin\Debug\ProyectoEstructura.exe.config
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\bin\Debug\ProyectoEstructura.exe
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\bin\Debug\ProyectoEstructura.pdb
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.exe
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.pdb
+C:\Users\Gonzalo\source\repos\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Menu.resources
+C:\Users\Gonzalo\UP\3er semestre\Estructura\ProyectoEstructura\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csprojAssemblyReference.cache
+C:\Users\Gonzalo\UP\3er semestre\Estructura\ProyectoEstructura\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.exe
+C:\Users\Gonzalo\UP\3er semestre\Estructura\ProyectoEstructura\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.pdb
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csprojAssemblyReference.cache
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.exe
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.pdb
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\bin\Debug\ProyectoEstructura.exe.config
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\bin\Debug\ProyectoEstructura.exe
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\bin\Debug\ProyectoEstructura.pdb
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csprojResolveAssemblyReference.cache
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Login.resources
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Menu.resources
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.MenuPedido.resources
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Ganancias.resources
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.MostrarPedidos.resources
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Properties.Resources.resources
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csproj.GenerateResource.Cache
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csproj.CoreCompileInputs.cache
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.exe
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.pdb
+\\tsclient\C\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.LoginGanancia.resources
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\bin\Debug\ProyectoEstructura.exe.config
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\bin\Debug\ProyectoEstructura.exe
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\bin\Debug\ProyectoEstructura.pdb
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Login.resources
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.LoginGanancia.resources
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Menu.resources
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.MenuPedido.resources
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Ganancias.resources
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.MostrarPedidos.resources
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.Properties.Resources.resources
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csproj.GenerateResource.cache
+C:\Users\Gonzalo\Desktop\ProyectoEstructura\ProyectoEstructura\obj\Debug\ProyectoEstructura.csproj.CoreCompileInputs.cache

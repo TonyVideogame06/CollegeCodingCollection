@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="content-type" charset="utf-8">
+    <title>Proyectos</title>
+    
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
+    </head>
+    <body class="body">
+        <header>
+            <div class="menu_bar">
+                <a href="#" class="bt-menu"><span class="fas fa-bars"></span>Brian Antonio Aranda Mejia</a>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a id="header" class="right name cw" href="index.html">Brian Antonio Aranda Mejía</a></li>
+                        <li><a id="header" href="index.html">Menu Principal</a></li>
+                        <li><a id="header" href="CV%20BAAM.html">Currículum</a></li>
+                        <li><a id="header" href="Proyectos.html">Proyectos</a></li>
+                        <li><a id="header" href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> 
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-md-3 col-lg-3 col-sm-3 text-center">
+                        <article>
+                            <div>
+                                <button class="selectpro"><a style='cursor: pointer;' onClick="showAll('school','youtube','brigadas')">Mostrar Todos</a></button>
+                            </div>
+                        </article>
+                    </div>
+                <div class="col-md-3 col-lg-3 col-sm-3 text-center">
+                    <article>
+                        <div>
+                            <button class="selectpro"><a style='cursor: pointer;' onClick="showSchool('school','youtube','brigadas')">Escuela</a></button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-3 text-center">
+                    <article>    
+                            <button class="selectpro"><a style='cursor: pointer;' onClick="showYoutube('school','youtube','brigadas')">Canal de Youtube</a></button>
+                    </article> 
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-3 text-center">
+                    <article>
+                        <button class="selectpro"><a style='cursor: pointer;' onClick="showBrigadas('school','youtube','brigadas')">Brigadas UP</a></button>     
+                    </article> 
+                </div> 
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid">
+    <div class="row">
+        <div id="school" class="col-md-4 col-lg-4 col-sm-push-12 col-sm-12"><a href="RaspberryPi.html"><img class="img-fluid" src="img/Sistemas%20operativos.jpg"></a></div>
+        <div id="youtube" class="col-md-4 col-lg-4 col-sm-pull-12 col-sm-12"><a href="YouTube.html"><img class="img-fluid" src="img/Knights.jpg" width="640" height="360"></a></div>
+        <div id="brigadas" class="col-md-4 col-lg-4 col-sm-pull-12 col-sm-12"><a href="Brigadas.html"><img class="img-fluid" src="img/Brigadas.jpg" width="640" height="360"></a></div>
+    </div>        
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+         <footer>
+        	<div class="container-fluid">
+        		<div class="row">
+        			<div class="col-lg-4 col-sm-3">
+        				<aside>
+        					<div>
+        						<h3 class="cw">Aranda Mejia Brian Antonio</h3>
+        					</div>
+        				</aside>
+        			</div>
+        			<div class="cw text-center col-lg-4 col-sm-4"> 
+                            <div class="bold">Portafolio</div>
+                            <ul class="bold cw">
+                                <li><a href="index.html">Menu Principal</a></li>
+                                <li><a href="CV%20BAAM.html">Currículum</a></li>
+                                <li><a href="Proyectos.html">Proyectos</a></li>
+                                <li><a href="Contacto.html">Contacto</a></li>
+                            </ul>
+                            &copy; Brian Antonio Aranda Mejia
+                        </div>
+        			<div class="col-lg-4 col-sm-4">
+        				<aside>
+        					<div>
+        						<h3 class="cw bold">Contacto</h3>
+        					</div>
+        					<ul class="cw">
+        						<li><i class="fas fa-phone"></i><span class="bold"> Celular: </span> 5518773447</li>
+        						<li><i class="fas fa-envelope"></i><span class="bold"> E-mail: </span> 0209486@up.edu.mx</li>
+        						<li><i class="fab fa-facebook-square"></i><span class="bold"> Facebook: </span><a id="face" href="https://www.facebook.com/tonito.videogame" target="_blank">Brian Aranda</a></li>
+        						<li><i class="fab fa-youtube"></i><span class="bold"> YouTube: </span><a id="face" href="https://www.youtube.com/channel/UCNAMoGzqgFtkOE6Q-Tmhc3Q" target="_blank">TonyVideogame06</a></li>
+        					</ul>
+        				</aside>
+        			</div>
+        		</div>
+        	</div>
+        </footer>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="js/app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

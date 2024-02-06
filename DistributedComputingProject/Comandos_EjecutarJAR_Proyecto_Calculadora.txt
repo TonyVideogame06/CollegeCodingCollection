@@ -1,0 +1,4 @@
+java --module-path D:\Documentos\JavaFXSDK\javafx-sdk-14.0.2.1\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web -jar "D:\Documentos\UniversidadPanamericana\Semestres\Computo Distribuido\Proyecto\Proyecto_Calculadora_ArandaMejiaBrianAntonio\out\artifacts\CalculadoraCliente\CalculadoraCliente.jar"
+java -jar "D:\Documentos\UniversidadPanamericana\Semestres\Computo Distribuido\Proyecto\Proyecto_Calculadora_ArandaMejiaBrianAntonio\out\artifacts\CalculadoraServidor\CalculadoraServidor.jar"
+java -jar "D:\Documentos\UniversidadPanamericana\Semestres\Computo Distribuido\Proyecto\Proyecto_Calculadora_ArandaMejiaBrianAntonio\out\artifacts\Nodes\Nodes.jar"
+java -jar "D:\Documentos\UniversidadPanamericana\Semestres\Computo Distribuido\Proyecto\Proyecto_Calculadora_ArandaMejiaBrianAntonio\out\artifacts\Manager\Manager.jar"

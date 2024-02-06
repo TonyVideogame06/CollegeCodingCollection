@@ -1,0 +1,44 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          104.197.187.199
++ Target Hostname:    104.197.187.199
++ Target Port:        1001
++ Start Time:         2020-10-09 01:24:21 (GMT-5)
+---------------------------------------------------------------------------
++ Server: openresty/1.17.8.2
++ IP address found in the 'server' header. The IP is "1.17.8.2".
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ All CGI directories 'found', use '-C none' to test none
++ Web Server returns a valid response with junk HTTP methods, this may cause false positives.
++ /cgi.cgi/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /webcgi/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-914/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-915/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /bin/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /mpcgi/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-bin/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /ows-bin/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-sys/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-local/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /htbin/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgibin/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgis/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /scripts/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-win/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /fcgi-bin/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-exe/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-home/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-perl/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /scgi-bin/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-bin-sdb/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /cgi-mod/webfind.exe?keywords=01234567890123456789: May be vulnerable to a buffer overflow (request 2000 bytes of data). Upgrade to WebSitePro 2.5 or greater
++ /modules.php?op=modload&name=FAQ&file=index&myfaq=yes&id_cat=1&categories=%3Cimg%20src=javascript:alert(9456);%3E&parent_id=0: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS). http://www.cert.org/advisories/CA-2000-02.html.
++ /modules.php?letter=%22%3E%3Cimg%20src=javascript:alert(document.cookie);%3E&op=modload&name=Members_List&file=index: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS). http://www.cert.org/advisories/CA-2000-02.html.
++ OSVDB-4598: /members.asp?SF=%22;}alert(223344);function%20x(){v%20=%22: Web Wiz Forums ver. 7.01 and below is vulnerable to Cross Site Scripting (XSS). http://www.cert.org/advisories/CA-2000-02.html.
++ 26547 requests: 0 error(s) and 31 item(s) reported on remote host
++ End Time:           2020-10-09 02:32:14 (GMT-5) (4073 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

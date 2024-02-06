@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0CCEE2C9-03A5-4842-A584-182C74A6AC45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoEstructura</RootNamespace>
+    <AssemblyName>ProyectoEstructura</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Comida.cs" />
+    <Compile Include="Clases\ColaPedido.cs" />
+    <Compile Include="Clases\Dinero.cs" />
+    <Compile Include="Clases\Nodo.cs" />
+    <Compile Include="Clases\NodoSEC.cs" />
+    <Compile Include="Clases\NodoSEP.cs" />
+    <Compile Include="Clases\Pedidos.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginGanancia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginGanancia.Designer.cs">
+      <DependentUpon>LoginGanancia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pedido\MenuPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedido\MenuPedido.Designer.cs">
+      <DependentUpon>MenuPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganancias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganancias.Designer.cs">
+      <DependentUpon>Ganancias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pedido\MostrarPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedido\MostrarPedidos.Designer.cs">
+      <DependentUpon>MostrarPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginGanancia.resx">
+      <DependentUpon>LoginGanancia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedido\MenuPedido.resx">
+      <DependentUpon>MenuPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganancias.resx">
+      <DependentUpon>Ganancias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedido\MostrarPedidos.resx">
+      <DependentUpon>MostrarPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\agua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\combo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\dollar_sign.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\error.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\fanta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\manzanita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\papas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\sprite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\tomar_nota.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\toronja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="agua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="combo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dollar_sign.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="error.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fanta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="manzanita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="papas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sprite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tomar_nota.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="toronja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
