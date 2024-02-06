@@ -16,29 +16,16 @@ The projects are categorized based on the subject and complexity:
 - **Intelligent Systems**: Projects focusing on AI, machine learning, and intelligent system design.
 - **Networks and Security**: Assignments and projects dealing with computer networking, security principles, and cybersecurity challenges.
 
-### Highlights
-
-- `AIChessBot`: An intelligent chess bot capable of playing chess with heuristic evaluation and minimization-maximization algorithms.
-- `SecureBankApp`: A simulated banking application with a focus on cybersecurity principles and secure software development.
-
 ## Technologies Used
 
 Throughout these projects, a variety of technologies, programming languages, and tools were utilized, including:
 
-- Languages: Python, Java, C++, JavaScript
-- Frameworks & Libraries: React, Node.js, TensorFlow, OpenCV
-- Tools: Git, Docker, AWS, Jenkins
+- Languages: Python, Java, C++, C#, PHP, Scala
+- Frameworks & Libraries: Numpy, Pandas, TensorFlow, OpenCV
 
 ## Contributing
 
 While this repository primarily serves as an archive of my academic work, contributions or suggestions for improvements are welcome. Please feel free to fork the repository, make changes, and submit a pull request.
-
-## Contact
-
-If you have any questions about the projects or would like to discuss them in more detail, feel free to reach out.
-
-- Email: [your-email@example.com]
-- LinkedIn: [your-linkedin-profile]
 
 Thank you for visiting my academic project repository!
 
